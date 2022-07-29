@@ -12,7 +12,7 @@ module purge
 module load intel/2018b
 module load ifort/2018.4.274-GCC-7.3.0  impi/2018.4.274 netCDF-Fortran/4.4.4
 
-ifort vasp_FeC.f90 -o  GCMC_vasp ;
+ifort vasp_FeC_system.f90 -o  GCMC_vasp ;
 
 ./GCMC_vasp
 
