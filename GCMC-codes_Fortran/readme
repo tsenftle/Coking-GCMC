@@ -1,3 +1,8 @@
 The used codes for GCMC simulations with VASP.
 !! VASP is not part of this code.
 
+There are two different version, one is for Fe/C binary system, another is for Fe/C/Al(S) trinary system.
+
+The code was running by slurm, an example slurm file is included.
+
+
