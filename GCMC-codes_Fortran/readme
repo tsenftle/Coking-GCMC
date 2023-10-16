@@ -5,4 +5,6 @@ There are two different version, one is for Fe/C binary system, another is for F
 
 The code was executed with slurm and an example slurm file is included.
 
+An example control_MC file (for inputs and hyperparameters) is added.
+
 
