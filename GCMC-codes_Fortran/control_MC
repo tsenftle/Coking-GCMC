@@ -1,0 +1,20 @@
+      0   !debug output switch (0 = off 1 = on) 
+   5000   !nmciter = Number of iterations
+ 873.15   !Temperature
+ 1199.9   !specify volume occupied by vacuum space not accesible to atom insertions (default to zero)
+      2   !Number of GC atom types (number of rows in the following sections must equal the number of atom types
+Fe        !MC Atom Type 1
+C         !MC Atom Type 2
+  92.71   !mass of MC atom 1 (used to calculate de broglie thermal wavelength) (units: kg^10^-27) (amu*1.66)
+  19.94   !mass of MC atom 2 (used to calculate de broglie thermal wavelength) (units: kg^10^-27)
+  -8.55   !Mu1 = Chemical Potential of atom 1 (eV)   (8.55: miu_Fe = E_bulk_Fe; 8.81: E_bulk_Fe3C - gasC)
+  -8.40   !Mu2 = Chemical Potential of atom 2 (eV)   (9.18: miu_C = E_bulk_Fe3C - 3*E_bulk_Fe; 8.40: gas)
+      0   ! initial number of atom 1 (excludeing fixed ones)
+      0   ! initial number of atom 2
+    2.0   !RMin1
+    1.4   !RMin2 = Min radius for atom placement
+    3.0   !RMax1
+    3.0   !RMax2 = Max radius for atom placement
+      1   ! iz_place, 0=no 1=yes
+   0.57   ! min z
+   0.67   ! max z
